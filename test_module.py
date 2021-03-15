@@ -12,7 +12,7 @@ class LinePlotTestCase(unittest.TestCase):
         actual = self.ax.get_title()
         expected = "Rise in Sea Level"
         self.assertEqual(actual, expected, "Expected line plot title to be 'Rise in Sea Level'")
-    
+
     def test_plot_labels(self):
         actual = self.ax.get_xlabel()
         expected = "Year"
